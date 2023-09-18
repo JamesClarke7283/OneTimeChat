@@ -14,5 +14,5 @@ stage = "pre_build"
 command = "sh"
 command_arguments = [
     "-c",
-    "NODE_ENV=production tailwindcss -c ./tailwind.config.js -o ./src-ui/public/css/tailwind.min.css --minify",
+    "NODE_ENV=production tailwindcss -c ./tailwind.config.js -i ./src-ui/public/scss/main.scss -o ./src-ui/public/css/tailwind.min.css --minify",
 ]

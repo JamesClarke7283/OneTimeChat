@@ -1,2 +1,5 @@
-// Add your imports here
-@import "components/component1";
+@tailwind base;
+@tailwind utilities;
+@tailwind components;
+
+@import "components/header";

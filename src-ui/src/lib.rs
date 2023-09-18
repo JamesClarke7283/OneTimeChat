@@ -1,6 +1,7 @@
 pub mod components;
+pub mod routes;
 
-use components::core::Home;
+use crate::routes::home::Home;
 use leptos::{component, view, IntoView};
 use leptos_router::{Route, Router, Routes};
 #[component]
