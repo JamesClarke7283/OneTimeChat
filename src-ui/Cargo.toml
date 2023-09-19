@@ -19,6 +19,8 @@ tauri-sys = { git = "https://github.com/JonasKruckenberg/tauri-sys", rev = "9044
   "all",
 ] }
 futures = "0.3"
+web-sys = "0.3.64"
+wasm-bindgen = "0.2.87"
 
 [dev-dependencies]
 wasm-bindgen-test = "0.3"

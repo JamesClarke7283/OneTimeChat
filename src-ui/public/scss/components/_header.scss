@@ -1,7 +1,12 @@
 .otc-header {
     display: flex;
     align-items: center;
+    justify-content: space-between;
     height: 10vh;
     width: 100%;
-}
 
+    >* {
+        flex-grow: 1;
+        text-align: center;
+    }
+}

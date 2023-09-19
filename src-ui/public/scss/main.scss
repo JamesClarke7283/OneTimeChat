@@ -2,4 +2,6 @@
 @tailwind utilities;
 @tailwind components;
 
+@import "themes/light";
+@import "themes/dark";
 @import "components/header";
